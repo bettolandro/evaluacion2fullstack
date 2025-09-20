@@ -22,10 +22,10 @@ public class Consulta {
     private String especialidad_consulta;
     @Column(name = "observacion_consulta")
     private String observacion_consulta;
-    @Column(name = "id_paciente")
-    private Long id_paciente;
-    @Column(name = "id_doctor")
-    private Long id_doctor;
+    @Column(name = "paciente_id_paciente")
+    private Long paciente_id_paciente;
+    @Column(name = "doctor_id_doctor")
+    private Long doctor_id_doctor;
     
     public Long getId_consulta() {
         return id_consulta;
@@ -51,16 +51,16 @@ public class Consulta {
     public void setObservacion_consulta(String observacion_consulta) {
         this.observacion_consulta = observacion_consulta;
     }
-    public Long getId_paciente() {
-        return id_paciente;
+    public Long getPaciente_id_paciente() {
+        return paciente_id_paciente;
     }
-    public void setId_paciente(Long id_paciente) {
-        this.id_paciente = id_paciente;
+    public void setPaciente_id_paciente(Long paciente_id_paciente) {
+        this.paciente_id_paciente = paciente_id_paciente;
     }
-    public Long getId_doctor() {
-        return id_doctor;
+    public Long getDoctor_d_doctor() {
+        return doctor_id_doctor;
     }
-    public void setId_doctor(Long id_doctor) {
-        this.id_doctor = id_doctor;
+    public void setDoctor_id_doctor(Long doctor_id_doctor) {
+        this.doctor_id_doctor = doctor_id_doctor;
     }
 }
