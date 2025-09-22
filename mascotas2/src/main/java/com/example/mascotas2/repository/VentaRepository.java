@@ -1,7 +1,6 @@
 package com.example.mascotas2.repository;
 
 import java.math.BigDecimal;
-import java.sql.Date;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
